@@ -1,0 +1,26 @@
+.bodyClass {
+    background-color: aqua;
+    margin:0 25% 0 25%;
+    width:50%;
+}
+
+.divname {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    width: 800px;
+}
+
+.divcalc {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    width: 800px;
+}
+
+.divcheck{
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    width: 800px;
+}

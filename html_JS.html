@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/html_JS.css">
+    <script defer src="./js/JavaScript.js"></script>
+</head>
+<body class="bodyClass">
+    <div class="divname">
+        <p>Задание 1: Создать страницу, которая спрашивает имя у пользователя и выводит его с помощью функции.</p>
+        <input id="name" placeholder="Введите ваше имя">
+        <button onclick="nameuser()">Ввод</button>
+        <input id="result1" placeholder="Приветствие:">
+        
+    </div>
+    <br>
+    <div class="divcalc">
+        <p>Задание 2: Доделайте калькулятор из урока, сделайте 4 операции, при делении на ноль должен текст ошибки в поле вывода выводиться.</p>
+        <br>
+        <p>Калькулятор:</p>
+        <input id="num1" placeholder="Введите первое число:">
+        <input id="num2" placeholder="Введите второе число:">
+        <br>
+        <button onclick="calc('+')">Сложить</button>
+        <button onclick="calc('-')">Вычесть</button>
+        <button onclick="calc('*')">Умножить</button>
+        <button onclick="calc('/')">Разделить</button>
+        <br>
+        <input id="result2" placeholder="Результат:">
+    </div>
+    <br>
+    <div class="divcheck">
+        <p>Задание 3: Введите число, например 5, и выведите текстом 5 Яблок, если введено 3 вывести 3 Яблока и т.д. по всем правилам русского языка.</p>
+        <br>
+        <input id="number" placeholder="Введите числло:">
+        <button onclick="check()">Ввод</button>
+        <input id="result3" placeholder="Результат:">
+    </div>
+</body>
+</html>
